@@ -1,3 +1,3 @@
 # comment-pattern
 
-> 注释图案
+> 图案注释

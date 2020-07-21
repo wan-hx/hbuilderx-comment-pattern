@@ -1,38 +1,63 @@
 {
-	"name": "comment-pattern",
-	"description": "各种各种的注释图案，如佛祖保佑、神兽保佑",
-	"displayName": "注释图案，如佛祖保佑",
-	"version": "0.0.1",
-	"publisher": "OneOne",
-	"engines": {
-		"HBuilderX": "^2.7.0"
-	},
-	"categories": [
-		"Other"
-	],
-	"main": "./extension",
-	"activationEvents": [
-		"onCommand:extension.commentPattern"
-	],
-	"contributes": {
-		"commands": [{
-			"command": "extension.commentPattern",
-			"title": "注释图案插入"
-		}],
-		"menus": {
-			"editor/context": [{
-					"command": "extension.commentPattern",
-					"group": "z_commands",
-					"when": "editorTextFocus"
-				},
-				{
-					"group": "z_commands"
-				}
-			]
-		}
-	},
-	"extensionDependencies": [
-		"plugin-manager"
-	],
-	"dependencies": {}
+    "name": "comment-pattern",
+    "description": "各种各种的注释图案，佛祖保佑、神兽保佑",
+    "displayName": "注释图案，如佛祖保佑",
+    "version": "0.0.1",
+    "publisher": "OneOne",
+    "engines": {
+        "HBuilderX": "^2.7.0"
+    },
+    "categories": [
+        "Other"
+    ],
+    "main": "./extension",
+    "activationEvents": [
+        "onCommand:extension.commentPattern",
+        "onCommand:extension.commentPatternAbout"
+    ],
+    "contributes": {
+        "configuration": {
+            "title": "插件 - 图案注释",
+            "properties": {
+                "commentPattern.isShowContextMenu": {
+                    "type": "boolean",
+                    "default": true,
+                    "description": "编辑器，右键菜单，禁用【图案注释】"
+                }
+            }
+        },
+        "commands": [{
+            "command": "extension.commentPattern",
+            "title": "图案注释"
+        }, {
+            "command": "extension.commentPatternAbout",
+            "title": "关于/评价"
+        }],
+        "menus": {
+            "editor/context": [{
+                "command": "extension.commentPattern",
+                "group": "assist",
+                "when": "editorTextFocus && config.commentPattern.isShowContextMenu"
+            }],
+            "menubar/tool": [{
+                "title": "图案注释",
+                "group": "ext_settings",
+                "id": "toolsMenu"
+            }, {
+                "command": "extension.commentPattern",
+                "title": "插入图案注释",
+                "group": "toolsMenu@1"
+            }, {
+                "group": "toolsMenu@3"
+            }, {
+                "command": "extension.commentPatternAbout",
+                "title": "关于/评价",
+                "group": "toolsMenu@4"
+            }]
+        }
+    },
+    "extensionDependencies": [
+        "plugin-manager"
+    ],
+    "dependencies": {}
 }

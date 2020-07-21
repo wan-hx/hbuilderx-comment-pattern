@@ -28,8 +28,7 @@ const BuddhaImg =`//
 //           佛祖保佑       永不宕机     永无BUG
 //`
 
-const BuddhaImgSay =
-	`//
+const BuddhaImgSay =`//
 //                       _oo0oo_
 //                      o8888888o
 //                      88" . "88
@@ -54,33 +53,32 @@ const BuddhaImgSay =
 //
 //           佛祖保佑       永不宕机     永无BUG
 //
-//       佛曰:  
-//               写字楼里写字间，写字间里程序员；  
-//               程序人员写程序，又拿程序换酒钱。  
-//               酒醒只在网上坐，酒醉还来网下眠；  
-//               酒醉酒醒日复日，网上网下年复年。  
-//               但愿老死电脑间，不愿鞠躬老板前；  
-//               奔驰宝马贵者趣，公交自行程序员。  
-//               别人笑我忒疯癫，我笑自己命太贱；  
+//       佛曰:
+//               写字楼里写字间，写字间里程序员；
+//               程序人员写程序，又拿程序换酒钱。
+//               酒醒只在网上坐，酒醉还来网下眠；
+//               酒醉酒醒日复日，网上网下年复年。
+//               但愿老死电脑间，不愿鞠躬老板前；
+//               奔驰宝马贵者趣，公交自行程序员。
+//               别人笑我忒疯癫，我笑自己命太贱；
 //               不见满街漂亮妹，哪个归得程序员？
 //`
 
 
 const BuddhaSay =`
 //
-//          佛曰:  
-//                  写字楼里写字间，写字间里程序员；  
-//                  程序人员写程序，又拿程序换酒钱。  
-//                  酒醒只在网上坐，酒醉还来网下眠；  
-//                  酒醉酒醒日复日，网上网下年复年。  
-//                  但愿老死电脑间，不愿鞠躬老板前；  
-//                  奔驰宝马贵者趣，公交自行程序员。  
-//                  别人笑我忒疯癫，我笑自己命太贱；  
+//          佛曰:
+//                  写字楼里写字间，写字间里程序员；
+//                  程序人员写程序，又拿程序换酒钱。
+//                  酒醒只在网上坐，酒醉还来网下眠；
+//                  酒醉酒醒日复日，网上网下年复年。
+//                  但愿老死电脑间，不愿鞠躬老板前；
+//                  奔驰宝马贵者趣，公交自行程序员。
+//                  别人笑我忒疯癫，我笑自己命太贱；
 //                  不见满街漂亮妹，哪个归得程序员？
 `
 
-const Belle =
-	`//
+const Belle =`//
 //                       .::::.
 //                     .::::::::.
 //                    :::::::::::
@@ -101,8 +99,7 @@ const Belle =
 //                       '.:::::'                    ':'\`\`\`\`..
 `
 
-const TotemBat =
-	`//
+const TotemBat =`//
 //                  ___====-_  _-====___
 //            _--^^^#####//      \\\\#####^^^--_
 //         _-^##########// (    ) \\\\##########^-_
@@ -125,8 +122,7 @@ const TotemBat =
 //               神兽保佑            永无BUG
 `
 
-const TotemWestDragon =
-	`//
+const TotemWestDragon =`//
 //                                                    __----~~~~~~~~~~~------___
 //                                   .  .   ~~//====......          __--~ ~~
 //                   -.            \\_|//     |||\\\\  ~~~~~~::::... /~
@@ -250,43 +246,43 @@ const TotemDragon =`//
 `
 
 const PickPatterns = [{
-	"label": "佛祖图案",
-	"code": BuddhaImg
-},{
-	"label": "佛祖图案 + 佛曰",
-	"code": BuddhaImgSay
-},{
-	"label": "佛曰",
-	"code": BuddhaSay
-},{
-	"label": "美女",
-	"code": Belle
-},{
-	"label": "神兽保佑 - 蝙蝠",
-	"code": TotemBat
-},{
-	"label": "神兽保佑 - 喷火龙",
-	"code": TotemWestDragon
-},{
-	"label": "程序员之歌",
-	"code": CoderSong
-},{
-	"label": "狗",
-	"code": Dog
-},{
-	"label": "龙腾图",
-	"code": TotemDragon
+    "label": "佛祖图案",
+    "code": BuddhaImg
+}, {
+    "label": "佛祖图案 + 佛曰",
+    "code": BuddhaImgSay
+}, {
+    "label": "佛曰",
+    "code": BuddhaSay
+}, {
+    "label": "美女",
+    "code": Belle
+}, {
+    "label": "神兽保佑 - 蝙蝠",
+    "code": TotemBat
+}, {
+    "label": "神兽保佑 - 喷火龙",
+    "code": TotemWestDragon
+}, {
+    "label": "程序员之歌",
+    "code": CoderSong
+}, {
+    "label": "狗",
+    "code": Dog
+}, {
+    "label": "龙腾图",
+    "code": TotemDragon
 }]
 
 module.exports = {
-	BuddhaImg,
-	BuddhaImgSay,
-	BuddhaSay,
-	Belle,
-	TotemBat,
-	TotemWestDragon,
-	CoderSong,
-	Dog,
-	TotemDragon,
-	PickPatterns
+    BuddhaImg,
+    BuddhaImgSay,
+    BuddhaSay,
+    Belle,
+    TotemBat,
+    TotemWestDragon,
+    CoderSong,
+    Dog,
+    TotemDragon,
+    PickPatterns
 }
