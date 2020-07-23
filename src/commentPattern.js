@@ -26,8 +26,7 @@ const Aiv = `
 
 `
 
-const BuddhaImg =`
-//
+const BuddhaImg =`//
 //                       _oo0oo_
 //                      o8888888o
 //                      88" . "88
@@ -89,8 +88,7 @@ const BuddhaImgSay =`//
 //               不见满街漂亮妹，哪个归得程序员？
 //`
 
-const BuddhaSayMoreBug = `
-/***
+const BuddhaSayMoreBug = `/***
  * _ooOoo_
  * o8888888o
  * 88" . "88
@@ -103,8 +101,7 @@ const BuddhaSayMoreBug = `
  */
 `
 
-const BuddhaSay =`
-//
+const BuddhaSay =`//
 //          佛曰:
 //                  写字楼里写字间，写字间里程序员；
 //                  程序人员写程序，又拿程序换酒钱。
@@ -160,8 +157,7 @@ const TotemBat =`//
 //               神兽保佑            永无BUG
 `
 
-const TotemWestDragon =`
-/***
+const TotemWestDragon =`/***
  *
  *
  *                                                    __----~~~~~~~~~~~------___
@@ -287,8 +283,7 @@ const TotemDragon =`//
 //..................................&..............................
 `
 
-const Engineer = `
-/***
+const Engineer = `/***
  *             ,%%%%%%%%,
  *           ,%%/\%%%%/\%%
  *          ,%%%\c "" J/%%%
@@ -311,8 +306,7 @@ const Engineer = `
  */
 `
 
-const Book =`
-/***
+const Book =`/***
  *                 .-~~~~~~~~~-._       _.-~~~~~~~~~-.
  *             __.'              ~.   .~              \`.__
  *           .'//                  \\./                  \\\\\`.
@@ -325,8 +319,7 @@ const Book =`
  */
 `
 
-const Ding = `
-/***
+const Ding = `/***
  * 頂頂頂頂頂頂頂頂頂　頂頂頂頂頂頂頂頂頂
  * 頂頂頂頂頂頂頂　　　　　頂頂　　　　　
  * 　　　頂頂　　　頂頂頂頂頂頂頂頂頂頂頂
@@ -343,8 +336,7 @@ const Ding = `
  */
 `
 
-const Keyboard = `
-/***
+const Keyboard = `/***
  * ┌───┐   ┌───┬───┬───┬───┐ ┌───┬───┬───┬───┐ ┌───┬───┬───┬───┐ ┌───┬───┬───┐
  * │Esc│   │ F1│ F2│ F3│ F4│ │ F5│ F6│ F7│ F8│ │ F9│F10│F11│F12│ │P/S│S L│P/B│  ┌┐    ┌┐    ┌┐
  * └───┘   └───┴───┴───┴───┘ └───┴───┴───┴───┘ └───┴───┴───┴───┘ └───┴───┴───┘  └┘    └┘    └┘
@@ -362,9 +354,7 @@ const Keyboard = `
  */
 `
 
-const Skull = `
-
-/***
+const Skull = `/***
  **************************************************************
  *                                                            *
  *   .=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-.       *
@@ -390,8 +380,7 @@ const Skull = `
  */
 `
 
-const LookSourceCode = `
-/***
+const LookSourceCode = `/***
  *                                         ,s555SB@@&
  *                                      :9H####@@@@@Xi
  *                                     1@@@@@@@@@@@@@@8
@@ -426,8 +415,7 @@ const LookSourceCode = `
  */
 `
 
-const PC = `
-/**
+const PC = `/**
  *              ,----------------,              ,---------,
  *         ,-----------------------,          ,"        ,"|
  *       ,"                      ,"|        ,"        ,"  |
