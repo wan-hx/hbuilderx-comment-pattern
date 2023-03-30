@@ -459,91 +459,116 @@ const oldMan = `
 //   |||||
 `
 
+const cat2 = `
+/***********
+ *   |\_/|  
+ *  / o o \ 
+ * (   "   )
+ *  \~(*)~/
+ *   \~•~/  
+ *    \|/  
+ *
+ * 源码如下所示，抱歉不够有趣
+ ***********/
+`
+
 const PickPatterns = [ {
-    "label": "程序员之歌",
+    "label": "图: 程序员之歌",
     "description": "",
     "code": CoderSong
 }, {
-    "label": "佛祖图案",
+    "label": "图: 佛祖图案",
     "description": "",
     "code": BuddhaImg
 }, {
-    "label": "佛祖图案 + 佛曰",
+    "label": "图: 佛祖图案 + 佛曰",
     "description": "",
     "code": BuddhaImgSay
 }, {
-    "label": "佛曰",
+    "label": "图: 佛曰",
     "description": "",
     "code": BuddhaSay
 },{
-    "label": "佛曰：bug泛滥，我已瘫痪！",
+    "label": "图: 佛曰：bug泛滥，我已瘫痪！",
     "description": "",
     "code": BuddhaSayMoreBug
 } ,{
-    "label": "美女",
+    "label": "图: 美女",
     "description": "",
     "code": Belle
 }, {
-    "label": "老头",
+    "label": "图: 老头",
     "description": "",
     "code": oldMan
 }, {
-    "label": "神兽保佑 - 蝙蝠",
+    "label": "图: 神兽保佑 - 蝙蝠",
     "description": "",
     "code": TotemBat
 }, {
-    "label": "神兽保佑 - 喷火龙",
+    "label": "图: 神兽保佑 - 喷火龙",
     "description": "",
     "code": TotemWestDragon
 },{
-    "label": "狗",
+    "label": "图: 狗",
     "description": "",
     "code": Dog
 }, {
-    "label": "小狗",
+    "label": "图: 小狗",
     "description": "",
     "code": smallDog
 }, {
-    "label": "猫",
+    "label": "图: 小猫",
     "description": "",
     "code": smallCat
+},  {
+    "label": "图: 小猫 - 源码如下所示，抱歉不够有趣",
+    "description": "",
+    "code": cat2
 }, {
-    "label": "龙腾图",
+    "label": "图: 龙腾图",
     "description": "",
     "code": TotemDragon
 }, {
-    "label": "攻城狮",
+    "label": "图: 攻城狮",
     "description": "",
     "code": Engineer
 }, {
-    "label": "电脑主机",
+    "label": "图: 电脑主机",
     "description": "",
     "code": PC
 }, {
-    "label": "键盘",
+    "label": "图: 键盘",
     "description": "",
     "code": Keyboard
 }, {
-    "label": "书",
+    "label": "图: 书",
     "description": "",
     "code": Book
 },{
-    "label": "顶顶顶",
+    "label": "图: 顶顶顶",
     "description": "",
     "code": Ding
 },{
-    "label": "骷髅头",
+    "label": "图: 骷髅头",
     "description": "",
     "code": Skull
 },{
-    "label": "又看源码，看你妹妹呀！",
+    "label": "图: 又看源码，看你妹妹呀！",
     "description": "",
     "code": LookSourceCode
 },{
-    "label": "码到成功",
+    "label": "图: 码到成功",
     "description": "",
     "code": Aiv
-},]
+}, {
+    "label": "纯文本：这段代码比毒蛇还要敏捷，注意不要被它咬到！",
+    "description": "",
+    "code": "// 这段代码比毒蛇还要敏捷，注意不要被它咬到！"
+}, {
+    "label": "纯文本：下面这行代码的作用是“拯救宇宙”，虽然看起来很简单，但却是整个程序的关键！",
+    "description": "",
+    "code": "// 下面这行代码的作用是“拯救宇宙”，虽然看起来很简单，但却是整个程序的关键！"
+}]
 
 module.exports = {
     PickPatterns,
