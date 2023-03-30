@@ -10,7 +10,7 @@
     "categories": [
         "Other"
     ],
-    "main": "./extension",
+    "main": "./extension.js",
     "activationEvents": [
         "onCommand:extension.commentPattern",
         "onCommand:extension.commentPatternAbout"
@@ -32,6 +32,11 @@
         }, {
             "command": "extension.commentPatternAbout",
             "title": "关于/评价"
+        }],
+        "keybindings": [{
+            "command": "extension.commentPattern",
+            "key": "Ctrl+Shift+/",
+            "macosx": "command+Shift+/"
         }],
         "menus": {
             "editor/context": [{
