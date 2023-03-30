@@ -2,28 +2,28 @@
  * @description 注释图案
  */
 
-const Aiv = `
-
-                              _(\_/)
-                            ,((((\`\
-                           ((((  (6 \
-                         ,((((( ,    \
-     ,,,_              ,(((((  /"._  ,\`,
-    ((((\\ ,...       ,((((   /    \`-.-'
-    )))  ;'    \`"'"'""((((   (
-   (((  /            (((      \
-    )) |                      |
-   ((  |        .       '     |
-   ))  \     _ '      \`t   ,.')
-   (   |   y;- -,-""'"-.\   \/
-   )   / ./  ) /         \`\  \
-      |./   ( (           / /'
-      ||     \\          //'|
-      ||      \\       _//'||
-      ||       ))     |_/  ||
-      \_\     |_/          ||
-      \`'"                  \_\
-
+const Aiv = `/**
+ *
+ *                               _(\_/)
+ *                             ,((((\`\
+ *                            ((((  (6 \
+ *                          ,((((( ,    \
+ *      ,,,_              ,(((((  /"._  ,\`,
+ *     ((((\\ ,...       ,((((   /    \`-.-'
+ *     )))  ;'    \`"'"'""((((   (
+ *    (((  /            (((      \
+ *     )) |                      |
+ *    ((  |        .       '     |
+ *    ))  \     _ '      \`t   ,.')
+ *    (   |   y;- -,-""'"-.\   \/
+ *    )   / ./  ) /         \`\  \
+ *       |./   ( (           / /'
+ *       ||     \\          //'|
+ *       ||      \\       _//'||
+ *       ||       ))     |_/  ||
+ *       \_\     |_/          ||
+ *       \`'"                  \_\
+ */
 `
 
 const BuddhaImg =`//
@@ -437,61 +437,113 @@ const PC = `/**
  */
 `
 
-const PickPatterns = [{
-    "label": "码到成功",
-    "code": Aiv
-},{
+const smallDog = `
+//    __
+//o-''))_____\\
+//"--__/ * * * )
+//c_c__/-c____/
+`
+
+const smallCat = `
+//   /\_/\
+//  ( o.o )
+//   > ^ <
+`
+
+const oldMan = `
+//   _____
+//  /     \
+// | () () |
+//  \  ^  /
+//   |||||
+//   |||||
+`
+
+const PickPatterns = [ {
+    "label": "程序员之歌",
+    "description": "",
+    "code": CoderSong
+}, {
     "label": "佛祖图案",
+    "description": "",
     "code": BuddhaImg
 }, {
     "label": "佛祖图案 + 佛曰",
+    "description": "",
     "code": BuddhaImgSay
 }, {
     "label": "佛曰",
+    "description": "",
     "code": BuddhaSay
 },{
     "label": "佛曰：bug泛滥，我已瘫痪！",
+    "description": "",
     "code": BuddhaSayMoreBug
 } ,{
     "label": "美女",
+    "description": "",
     "code": Belle
 }, {
+    "label": "老头",
+    "description": "",
+    "code": oldMan
+}, {
     "label": "神兽保佑 - 蝙蝠",
+    "description": "",
     "code": TotemBat
 }, {
     "label": "神兽保佑 - 喷火龙",
+    "description": "",
     "code": TotemWestDragon
-}, {
-    "label": "程序员之歌",
-    "code": CoderSong
-}, {
+},{
     "label": "狗",
+    "description": "",
     "code": Dog
 }, {
+    "label": "小狗",
+    "description": "",
+    "code": smallDog
+}, {
+    "label": "猫",
+    "description": "",
+    "code": smallCat
+}, {
     "label": "龙腾图",
+    "description": "",
     "code": TotemDragon
 }, {
     "label": "攻城狮",
+    "description": "",
     "code": Engineer
 }, {
     "label": "电脑主机",
+    "description": "",
     "code": PC
 }, {
     "label": "键盘",
+    "description": "",
     "code": Keyboard
 }, {
     "label": "书",
+    "description": "",
     "code": Book
 },{
     "label": "顶顶顶",
+    "description": "",
     "code": Ding
 },{
     "label": "骷髅头",
+    "description": "",
     "code": Skull
 },{
     "label": "又看源码，看你妹妹呀！",
+    "description": "",
     "code": LookSourceCode
-}]
+},{
+    "label": "码到成功",
+    "description": "",
+    "code": Aiv
+},]
 
 module.exports = {
     PickPatterns,
