@@ -2,4 +2,12 @@
 
 在打开的文件上，右键菜单，点击【图案注释】
 
-![](http://img-cdn-qiniu.dcloud.net.cn/uploads/article/20200721/ae294175c4a03713ae7c867604f8966a.png)
+当然，您也可是通过快捷键触发，默认快捷键如下：
+
+```
+{
+    "command": "extension.commentPattern",
+    "key": "Ctrl+Shift+/",
+    "macosx": "command+Shift+/"
+}
+```
