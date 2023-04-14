@@ -2,7 +2,7 @@
     "name": "comment-pattern",
     "description": "各种各种的图案注释，佛祖保佑、神兽保佑",
     "displayName": "图案注释，佛祖保佑、神兽保佑",
-    "version": "0.1.0",
+    "version": "0.1.1",
     "publisher": "OneOne",
     "engines": {
         "HBuilderX": "^2.7.0"
@@ -47,17 +47,17 @@
             "menubar/tool": [{
                 "title": "图案注释",
                 "group": "ext_settings",
-                "id": "toolsMenu"
+                "id": "commentPattern"
             }, {
                 "command": "extension.commentPattern",
                 "title": "插入图案注释",
-                "group": "toolsMenu@1"
+                "group": "commentPattern@1"
             }, {
-                "group": "toolsMenu@3"
+                "group": "commentPattern@3"
             }, {
                 "command": "extension.commentPatternAbout",
                 "title": "关于/评价",
-                "group": "toolsMenu@4"
+                "group": "commentPattern@4"
             }]
         }
     },
