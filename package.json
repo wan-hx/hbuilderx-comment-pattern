@@ -2,7 +2,7 @@
     "name": "comment-pattern",
     "description": "各种各种的图案注释，佛祖保佑、神兽保佑",
     "displayName": "图案注释，佛祖保佑、神兽保佑",
-    "version": "0.1.1",
+    "version": "0.1.2",
     "publisher": "OneOne",
     "engines": {
         "HBuilderX": "^2.7.0"
